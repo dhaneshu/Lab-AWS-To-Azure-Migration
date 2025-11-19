@@ -1,2 +1,3 @@
-# Lab-AWS-To-Azure-Migration
-A lab for AWS to Azure Migration
+# SimpleShop AWS → Azure Migration Lab
+
+Repo for lab.

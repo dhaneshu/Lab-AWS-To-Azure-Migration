@@ -1,0 +1,16 @@
+aws_region        = "us-east-1"
+aws_az            = "us-east-1a"
+admin_ssh_cidr    = "203.0.113.10/32" # replace with your IP
+
+db_password       = "ChangeMeStrongPassword!"
+
+ec2_ami_id                     = "ami-0ecb62995f68bb549" # replace with Amazon Linux 2 or Ubuntu AMI
+ec2_key_pair_name              = "simpleshop-keypair"
+aws_az_a                       = "us-east-1a"
+aws_az_b                       = "us-east-1b"
+private_subnet_cidr_a          = "10.10.5.0/24"
+private_subnet_cidr_b          = "10.10.6.0/24"
+db_engine_version              = "18.1"
+azure_migrate_key_pair_name    = "simpleshop-keypair"
+azure_migrate_admin_cidr       = "43.229.88.38/32"
+deploy_azure_migrate_appliance = true
